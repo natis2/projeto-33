@@ -83,7 +83,8 @@ function setup() {
   button2.size(50,50);
 
   button2.mouseClicked(drop);
-
+  button.mouseClicked(remove_rope);
+  
   ellipseMode(RADIUS);
 }
 
